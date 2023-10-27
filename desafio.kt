@@ -17,7 +17,7 @@ data class Matricular(val nome: String, val matricular: Int)
 fun main() {
 
     val inscritos = mutableListOf(
-   		Matricular("Curso de Docker", 1),
+   	Matricular("Curso de Docker", 1),
         Matricular("Curso de Kafka", 2),
         Matricular("Curso de kotlin", 3)
         )
